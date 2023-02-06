@@ -1,5 +1,5 @@
-#ifndef HEAD_FILE_H_INCLUDED
-#define HEAD_FILE_H_INCLUDED
+#ifndef EASY_LIST_H_INCLUDED
+#define EASY_LIST_H_INCLUDED
 
 #include <iostream>
 #include <vector>
