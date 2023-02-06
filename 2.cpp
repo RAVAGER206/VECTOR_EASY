@@ -13,7 +13,7 @@ if (mass.size() == 0)
 }
 else 
 {
-for (int i = 0; i < mass.size() / 2; i + 1) 
+for (int i = 0; i < mass.size() / 2; i++) 
 {
 mass[i] = mass[i] + mass[mass.size() - i - 1];
 mass[mass.size() - i - 1] = mass[i] - mass[mass.size() - i - 1];
@@ -33,7 +33,7 @@ else
 for (int i = 0; i < mass.size() - mass.size() % 2; i += 2) 
 {
 mass[i] = mass[i] + mass[i + 1];
-mass[i + 1] = mass[i] - mass[i + 1];
+mass[i++] = mass[i] - mass[i++];
 mass[i] = mass[i] - mass[i + 1];
 }
 }
